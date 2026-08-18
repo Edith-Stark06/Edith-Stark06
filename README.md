@@ -46,6 +46,7 @@ Alongside that, I publish applied ML research — from gradient-boosting ensembl
 - 🏗️ **AI-Powered Mainframe Modernization Assistant** — building the deterministic-analysis-then-AI pipeline described below; Phase 4 (COBOL/JCL parsing) in active development.
 - 🎓 **Grade Management System** — a COBOL / VSAM / JCL / CICS mainframe portfolio project modeling VIT's 10-point grading scale, built to demonstrate core z/OS application development.
 - 🕸️ **NEXUS Z** — a graph-based fraud ring detection concept for pig-butchering-style scam networks, in preparation for **IBM Z Datathon 2026 (APAC)**.
+- 🧠 **Engineering Knowledge System (portfolio)** — a Next.js 16 static-export showcase built as a typed, traceable knowledge graph rather than a static page; evidence model and knowledge graph shipped, 17/17 routes building clean.
 - 💼 **Mainframe internship track** — targeting a January 2027 start (approved by VIT Chennai as capstone project credit), working through IBM Z Xplore, Interskill, and Broadcom Mainframe Academy.
 
 <br>
@@ -72,6 +73,25 @@ A smart e-waste tracking and circular-economy platform selected for **IEEE YESIS
 
 ---
 
+### 🧠 Engineering Knowledge System — Portfolio
+[![Repo](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Edith-Stark06/portfolio)
+![Next.js](https://img.shields.io/badge/-Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/-React%2019-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript%20(strict)-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/-Tailwind%20v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+Not a static portfolio page — an **interactive engineering knowledge system** where every route, command, and search record is derived from a single typed data layer. Next.js 16 App Router with `output: "export"` (17/17 static routes, zero runtime backend), React 19, strict TypeScript, Tailwind v4 with tokens defined in `@theme`, GSAP + ScrollTrigger, Lenis smooth scroll, and a custom WebGL shader background.
+
+Three ideas make it more than a site:
+
+- **Engineering evidence model** — every metric carries a conservative status (`VERIFIED` / `PROJECT-REPORTED` / `RESEARCH-REPORTED` / `UNAVAILABLE`) and resolves to the exact project, publication, or research record backing it. Nothing is fabricated, and unsupported claims render as *unavailable* rather than being filled in.
+- **Knowledge graph** (`/knowledge`) — pure SVG, **no graph library**: a deterministic seeded force-directed layout runs a fixed number of iterations and stops. Zoom, pan, node selection, URL-persisted state, full keyboard navigation, and a semantic index as the accessible fallback.
+- **Technical depth switch** — each case study renders at `?depth=executive|engineering|research`, resolved server-side from one source of truth; a depth with no supporting material is disabled, never invented.
+
+Plus a `Ctrl+K` command palette indexing every route, project, and publication; a media pipeline validated at build time; and accessibility carried through the whole surface — skip links, focus traps, `prefers-reduced-motion` across GSAP/Lenis/WebGL/CSS.
+
+---
+
 ### 🎓 Grade Management System
 ![COBOL](https://img.shields.io/badge/-COBOL-005CA5?style=flat-square)
 ![JCL](https://img.shields.io/badge/-JCL-002D9C?style=flat-square)
@@ -79,6 +99,16 @@ A smart e-waste tracking and circular-economy platform selected for **IEEE YESIS
 ![Status](https://img.shields.io/badge/-In%20Progress-orange?style=flat-square)
 
 A production-style z/OS application implementing VIT's 10-point grading scale end to end: copybooks, batch programs (initialization, calculation, reporting), VSAM KSDS files, and JCL job control — with CICS transaction programs and BMS maps in active development. Built as a direct, hands-on demonstration of core mainframe application development skills for internship readiness.
+
+---
+
+### ☀️ Solar Defect Analysis Framework
+[![Repo](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cat226/solar-ai-framework)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+
+A deep-learning framework for automated solar panel defect detection from thermal and RGB drone imagery — detecting micro-cracks, hotspots, and dust accumulation that manual inspection of large solar farms routinely misses. CNN-based anomaly detection pipeline feeding a React monitoring dashboard; dual thermal-RGB sensor fusion is what pushed false-positive defect calls down. *Primary contributor; repository hosted under a shared account.*
 
 ---
 
@@ -109,6 +139,7 @@ A graph-based fraud ring detection concept targeting pig-butchering-style scam n
 | Role | Organization | Period |
 |---|---|---|
 | IBM Champion | IBM | 2025 – 2026 |
+| SDE Intern — microservices architecture, deployment automation, ERP Inspection Call Management | Larsen & Toubro (L&T) | 2025 |
 | IBM Z Student Ambassador — Superstar Tier, All-Stars Badge | IBM Z Ambassador Program | Current |
 | Open Mainframe Project Mentee | Linux Foundation | Summer 2026 |
 | Project Lead — Backend, Architecture, Blockchain, DevOps | EcoTrace India (IEEE YESIST 2026) | 2026 |
@@ -158,9 +189,13 @@ A graph-based fraud ring detection concept targeting pig-butchering-style scam n
 ![Hyperledger](https://img.shields.io/badge/-Hyperledger%20Fabric-2F3134?style=flat-square&logo=hyperledger&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/-YOLOv8-purple?style=flat-square)
 
-**Mobile & Frontend**
+**Web, Mobile & Frontend**
+![Next.js](https://img.shields.io/badge/-Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/-React%2019-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/-Tailwind%20v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![GSAP](https://img.shields.io/badge/-GSAP%20%2F%20WebGL-88CE02?style=flat-square&logo=greensock&logoColor=black)
 ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
 **Research & Quantum**
 ![LaTeX](https://img.shields.io/badge/-LaTeX%20%2F%20IEEEtran-008080?style=flat-square&logo=latex&logoColor=white)
@@ -212,6 +247,7 @@ A graph-based fraud ring detection concept targeting pig-butchering-style scam n
         Compete at IBM Z Datathon 2026 APAC — NEXUS Z
         Complete CICS/BMS layer of the Grade Management System
         Camera-ready revision of the IC3DCM 2026 paper
+        Deploy the engineering knowledge system portfolio
 
 2027  → Graduate — B.Tech CSE, VIT Chennai
         Begin mainframe engineering internship (January)
@@ -221,6 +257,7 @@ A graph-based fraud ring detection concept targeting pig-butchering-style scam n
 
 ## 📫 Connect
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Engineering%20Knowledge%20System-0F62FE?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://github.com/Edith-Stark06/portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ramana-sree-18aa711b6)
 [![GitHub](https://img.shields.io/badge/GitHub-Edith--Stark06-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Edith-Stark06)
 [![Gmail](https://img.shields.io/badge/Email-ramanarobotech%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ramanarobotech@gmail.com)
